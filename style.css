@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(./images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+  background-position: center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 644px;
+  opacity: 0.6;
+}
+/* navbar alanı */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60vw;
+  margin: auto;
+  height: 100px;
+}
+.nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+.nav button {
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  padding: 3px 8px;
+  background-color: rgba(248, 243, 243, 0.2);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn-red {
+  background-color: red;
+  position: relative;
+}
+
+/* Hero Alanı */
+.hero {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 30px;
+  height: calc(100%-100px);
+}
+
+.hero > :nth-child(1) {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-buttons input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  outline: none;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4px;
+  color: white;
+}
+
+.hero-buttons :nth-child(2) {
+  font-size: 18px;
+  padding: 8px 24px;
+}
+
+/* Çizigi */
+.seperation {
+  border: 3px solid rgb(54, 54, 54);
+}
+/* Birinci Alan */
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.first h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.first p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}

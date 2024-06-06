@@ -11,3 +11,4 @@ HTML VE CSS özellikleri kullanıldı.
 ![](netflix.gif)
 # Netflix-Clone
 # Netflix-Clone
+# Netflix-Clone

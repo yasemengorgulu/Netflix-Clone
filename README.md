@@ -14,3 +14,4 @@ HTML VE CSS özellikleri kullanıldı.
 # Netflix-Clone
 # Netflix-Clone
 # Netflix-Clone
+# Netflix-Clone

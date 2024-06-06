@@ -9,4 +9,3 @@ HTML VE CSS özellikleri kullanıldı.
 <h2> Ekran Görüntüsü</h2>
 
 ![](netflix.gif)
-# Netflix-Clone
